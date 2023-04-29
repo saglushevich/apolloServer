@@ -12,8 +12,6 @@ export class DogAPI extends RESTDataSource {
       }
     );
 
-    const data = await response.json();
-
-    return data[0];
+    return response;
   }
 }
