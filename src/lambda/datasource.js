@@ -23,6 +23,9 @@ export class DogAPI extends RESTDataSource {
         "content-type": "application/json"
       },
     })
-    return response;
+
+    const data = await response.json();
+
+    return data[0];
   }
 }
