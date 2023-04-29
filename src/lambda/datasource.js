@@ -7,6 +7,7 @@ export class DogAPI extends RESTDataSource {
       {
         headers: {
           "X-Api-Key": "FZvdT5D6gVW1zV6qMdv5tw==1H3a9TU340W7LAKZ",
+          "content-type": "application/json"
         },
       }
     );
