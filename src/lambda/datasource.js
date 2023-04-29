@@ -1,5 +1,3 @@
-/* eslint-disable class-methods-use-this */
-
 import { RESTDataSource } from "apollo-datasource-rest";
 
 export class DogAPI extends RESTDataSource {
