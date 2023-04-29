@@ -16,6 +16,7 @@ const getHandler = (event, context) => {
       dogAPI: new DogAPI(),
     }),
   });
+
   const graphqlHandler = server.createHandler();
 
   if (!event.requestContext) {
