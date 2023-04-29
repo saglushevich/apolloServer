@@ -1,4 +1,5 @@
 import { RESTDataSource } from "apollo-datasource-rest";
+import fetch from "node-fetch"
 
 export class DogAPI extends RESTDataSource {
   async getDog({ breed }) {
