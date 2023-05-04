@@ -10,6 +10,6 @@ export const typeDefs = gql`
     good_with_other_dogs: Int!
   }
   type Query {
-    dog(breed: String!): Dog
+    dog(breed: String!): [Dog]
   }
 `;

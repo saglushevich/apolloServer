@@ -43,6 +43,6 @@ export class DogAPI extends RESTDataSource {
       },
     })
 
-    return response[0];
+    return response;
   }
 }
